@@ -1,0 +1,73 @@
+#container{
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+}
+body{
+    background: linear-gradient(to bottom right, #a29caa, #5e3491);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    font-size: 3.5rem;
+}
+.bar{
+    width: 35px;
+
+    background-color: rgb(53, 35, 93);
+    margin: 1px;
+}
+
+.button{
+
+    color:rgb(0, 0, 0);
+    background-color: rgb(147, 126, 214);
+    margin: 2px;
+    padding: 10px;
+    border: 2px black solid;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+#speedcontrol{
+    padding: 10px;
+    margin: 8px;
+    font-size: 18px;
+    
+
+}
+/* #speedcontrol2{
+    padding: 10px;
+    margin: 15px;
+    font-size: 18px;
+    
+ 
+} */
+#button1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(147, 126, 214);
+    margin: 1px;
+    padding: 10px;
+    margin-right: 15px;
+    border: 2px rgb(0, 0, 0) solid;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.slider{
+    fill: rgb(13, 70, 70);
+}
+.button:hover {
+    background-color: rgb(47, 7, 47); /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+#button1:hover {
+    background-color: rgb(47, 7, 47); /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+    cursor: pointer;
+}

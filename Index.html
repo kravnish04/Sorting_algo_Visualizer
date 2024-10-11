@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+        <h1 class="heading"> 🎶Sorting Visualizer🎶</h1>
+        <div id="container"></div>
+        <div id="speedcontrol" >
+        
+        <button id="button1" onClick="inputtaking()">Take new input</button>
+        
+            <label for="speedSlider"> Speed:</label>
+            <input type="range" min="1" max="200" value="300" class="slider" id="speedSlider" oninput="updateSpeed()">
+        </div>
+    
+        <!--<div id="speedcontrol2">
+             <label for="speedSlider"> array length controler :</label>
+            <input type="range" min="10" max="100" value="10" class="slider" id="length" oninput="arraylength()">
+        
+        </div> -->  
+    
+        <div>
+            <button class="button" onClick="playbubblesort()">Bubble sort</button>
+            <button class="button" onClick="playInsertionSort()">Insertion sort</button>
+            <button class="button" onClick="playselectionsort()">Selection sort</button>
+            <button class="button" onClick="playmergeSort()">Merge sort</button>
+            <button class="button" onClick="playquicksort()">Quick sort</button>
+        </div>
+        </div>
+    
+
+        
+        <script src="Script.js"></script>
+        <script src="Insertionsort.js"></script>
+        <script src="Bubblesort.js"></script>
+        <script src="Selectionsort.js"></script>
+        <script src="Mergesort.js"></script>
+        <script src="Quicksort.js"></script>
+</body>
+</html>
